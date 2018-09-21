@@ -1,5 +1,6 @@
 import psycopg2
 import config
+import os
 
 
 class User:
@@ -14,10 +15,12 @@ class User:
     """
 
     def __init__(self):
+
+        DATABASE_URL = os.environ['DATABASE_URL']
+
         self.connection = psycopg2.connect(
-            dbname=config.DATABASE['name'],
-            user=config.DATABASE['user'],
-            password=config.DATABASE['password']
+            DATABASE_URL,
+            sslmode='require'
         )
         self.cursor = self.connection.cursor()
 

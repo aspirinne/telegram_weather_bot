@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a43a33-a4e4-4f76-8018-5aac6d2118e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_users" beforeDir="false" afterPath="$PROJECT_DIR$/db_users" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/users.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +62,10 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="DATABASE:weather_bot_db" value="1" />
-          <entry key="Procfile" value="1" />
+          <entry key="Procfile" value="3" />
           <entry key="command_list" value="1" />
           <entry key="cur_weather_json" value="2" />
-          <entry key="db_users" value="3" />
+          <entry key="db_users" value="4" />
           <entry key="gitignore" value="2" />
           <entry key="py" value="9" />
           <entry key="sample_of_bot_message_json" value="3" />
@@ -78,8 +79,8 @@
         <counts>
           <entry key="JSON" value="10" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="10" />
-          <entry key="SQL" value="3" />
+          <entry key="Python" value="12" />
+          <entry key="SQL" value="4" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="1" />
         </counts>
@@ -89,9 +90,9 @@
           <entry key="Python Console" value="154" />
           <entry key="command_list" value="2" />
           <entry key="cur_weather_json" value="1" />
-          <entry key="db_users" value="115" />
+          <entry key="db_users" value="121" />
           <entry key="gitignore" value="6" />
-          <entry key="py" value="6452" />
+          <entry key="py" value="6469" />
           <entry key="sample_of_json" value="44" />
           <entry key="txt" value="14" />
         </counts>
@@ -100,8 +101,8 @@
         <counts>
           <entry key="JSON" value="45" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="6600" />
-          <entry key="SQL" value="121" />
+          <entry key="Python" value="6617" />
+          <entry key="SQL" value="127" />
         </counts>
       </usages-collector>
     </session>
@@ -118,15 +119,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -144,15 +136,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#48#176#1" />
-                <element signature="e#210#437#0" />
                 <element signature="e#476#699#0" />
                 <element signature="e#808#1104#0" />
                 <element signature="e#1152#1321#0" />
@@ -160,8 +160,17 @@
                 <element signature="e#1861#2342#0" />
                 <element signature="e#2409#2785#0" />
                 <element signature="e#2816#2882#0" />
-                <marker date="1537537407673" expanded="true" signature="177:182" ph="..." />
+                <marker date="1537540123719" expanded="true" signature="187:192" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_users">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -186,15 +195,15 @@
         <option value="$PROJECT_DIR$/sample_of_bot_message_json" />
         <option value="$PROJECT_DIR$/sample_of_weather_json" />
         <option value="$PROJECT_DIR$/samples/sample_of_bot_message_json" />
-        <option value="$PROJECT_DIR$/db_users" />
         <option value="$PROJECT_DIR$/samples/cur_weather_json" />
         <option value="$PROJECT_DIR$/samples/command_list" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/users.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bot.py" />
+        <option value="$PROJECT_DIR$/users.py" />
+        <option value="$PROJECT_DIR$/db_users" />
       </list>
     </option>
   </component>
@@ -322,6 +331,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27954546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,13 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_users">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/sample_of_weather_json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -405,13 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -452,37 +448,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#48#176#1" />
-            <element signature="e#210#437#0" />
-            <element signature="e#476#699#0" />
-            <element signature="e#808#1104#0" />
-            <element signature="e#1152#1321#0" />
-            <element signature="e#1376#1788#0" />
-            <element signature="e#1861#2342#0" />
-            <element signature="e#2409#2785#0" />
-            <element signature="e#2816#2882#0" />
-            <marker date="1537537407673" expanded="true" signature="177:182" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -499,6 +475,39 @@
             <element signature="e#4795#5054#0" />
             <element signature="e#5129#5619#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#48#176#1" />
+            <element signature="e#476#699#0" />
+            <element signature="e#808#1104#0" />
+            <element signature="e#1152#1321#0" />
+            <element signature="e#1376#1788#0" />
+            <element signature="e#1861#2342#0" />
+            <element signature="e#2409#2785#0" />
+            <element signature="e#2816#2882#0" />
+            <marker date="1537540123719" expanded="true" signature="187:192" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_users">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
