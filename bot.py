@@ -2,9 +2,9 @@ import config
 from users import User
 
 import telebot
-import psycopg2
+# import psycopg2
 import requests
-# import time
+import time
 
 
 # TODO: Separate the different methods in different classes/files. Ato pizdec, chert nogu slomit...
@@ -179,12 +179,10 @@ def send_current_weather(message):
 
 
 if __name__ == '__main__':
-    bot.polling(none_stop=True)
+    while True:
+        try:
+            bot.polling(none_stop=True)
 
-    # while True:
-    #     try:
-    #         bot.polling(none_stop=True)
-    #
-    #     except Exception as e:
-    #         print(e)
-    #         time.sleep(15)
+        except Exception as e:
+            print(e)
+            time.sleep(15)
