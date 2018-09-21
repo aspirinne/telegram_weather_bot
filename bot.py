@@ -63,33 +63,6 @@ def set_city(message):
     else:
         user = User()
         user.change_location_for_user(chat_id, city, country)
-        # conn = psycopg2.connect(dbname=config.DATABASE['name'], user=config.DATABASE['user'],
-        #                         password=config.DATABASE['password'])
-        # cur = conn.cursor()
-        #
-        # try:
-        #     cur.execute(
-        #         """
-        #         UPDATE users
-        #         SET city = %(city)s, country = %(country)s, city_id = NULL
-        #         WHERE chat_id = %(chat_id)s;
-        #         """,
-        #         {
-        #             'city': city,
-        #             'country': country,
-        #             'chat_id': chat_id,
-        #         }
-        #     )
-        #
-        # except psycopg2.DatabaseError as err:
-        #     print(err)
-        #     bot.send_message(config.ADMIN['chat_id'], err)
-        # else:
-        #     conn.commit()
-        #     bot.send_message(chat_id, 'Your city updated!')
-        # finally:
-        #     cur.close()
-        #     conn.close()
         bot.send_message(chat_id, 'Your city updated!')
 
 
@@ -164,7 +137,9 @@ def send_current_weather(message):
     user = User()
     user_info = user.get_user_by_chat_id(message.chat.id)
 
-    if user_info[-1] is None:
+    if user_info[3] is None:
+        bot.send_message(message.chat.id, 'Please set your city by the\n/city command')
+    elif user_info[-1] is None:
         data = get_current_weather(','.join(user_info[3:5]))
         user.update_city_id_for_user(message.chat.id, data["id"])
     else:
