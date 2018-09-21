@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 49.12,
+    "lat": 55.79
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "пасмурно",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 10,
+    "pressure": 1006,
+    "humidity": 81,
+    "temp_min": 10,
+    "temp_max": 10
+  },
+  "visibility": 9000,
+  "wind": {
+    "speed": 8,
+    "deg": 320,
+    "gust": 13
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1537354800,
+  "sys": {
+    "type": 1,
+    "id": 7335,
+    "message": 0.0025,
+    "country": "RU",
+    "sunrise": 1537323803,
+    "sunset": 1537368591
+  },
+  "id": 551487,
+  "name": "Kazan",
+  "cod": 200
+}

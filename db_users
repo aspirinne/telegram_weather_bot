@@ -1,0 +1,14 @@
+BEGIN;
+  --
+  -- Create table Cars
+  --
+  CREATE TABLE "users" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "chat_id" integer NOT NULL UNIQUE,
+    "first_name" varchar(50),
+    "city" varchar(50),
+    "country" varchar(2),
+    "city_id" integer
+  );
+  --
+COMMIT;
