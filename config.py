@@ -1,26 +1,29 @@
+import os
+
 """
 Global variables and configurations.
 """
 
 # Token for bot, learn more at:
 # https://tlgrm.ru/docs/bots#create-a-new-bot
-TOKEN = '625422568:AAHK-vDuGFjPCoiidWKe_X6b7TQpCsX54fg'
+TOKEN = os.environ['TELEGRAM_TOKEN']
 
 # Database
+# Just for local debug
 DATABASE = {
-    'name': 'weather_bot_db',
-    'user': 'postgres',
-    'password': 'Kbyljy13',
-    'host': 'localhost',
-    'port': '5432',
+    'name': '',
+    'user': '',
+    'password': '',
+    'host': '',
+    'port': '',
 }
 
 # Proxy, if you need...
 PROXY = {
     # 'is_need': True,
     'is_need': False,
-    'ip': '137.117.227.71',
-    'port': '3128',
+    'ip': '',
+    'port': '',
 }
 
 # Weather provider
